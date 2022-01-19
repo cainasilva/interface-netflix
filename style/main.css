@@ -94,6 +94,11 @@ header nav a:hover{
     color: black;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .botao i{
     margin-right: 8px;
 }
