@@ -34,7 +34,8 @@ header .logo{
 header nav a{
     text-decoration: none;
     color: #AAA;
-    margin-right: 10px;
+    margin-right: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header nav a:hover{
@@ -44,7 +45,7 @@ header nav a:hover{
 /*Filme principal*/
 .filme-principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/maxresdefault.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/noticia-1600543363-stranger-things-netflix-4.jpg');
 
     width: 711px;
     height: 400px;
@@ -87,4 +88,22 @@ header nav a:hover{
 
 .botao i{
     margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.item{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
 }
